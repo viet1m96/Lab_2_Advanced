@@ -1,0 +1,32 @@
+.result-container {
+    background: white;
+    display: inline-block;
+    max-width: 100%;
+    height: 30vh;
+    margin-left: 30%;
+    margin-top: 10%;
+    border: 2px solid darkgray;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+#result_table {
+    border-collapse: collapse;
+}
+
+#result_table td, #result_table th {
+    color: black;
+    border: 2px solid darkgray;
+    padding: 6px 12px;
+    text-align: center;
+}
+
+#goBack {
+    text-align: center;
+}
+
+#goBack::after {
+    color: #473d8b;
+    content: "➜";
+}

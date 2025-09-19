@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Lab_2_web_Advanced">
+    <output-path>$PROJECT_DIR$/out/artifacts/Lab_2_web_Advanced</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Lab_2_Advanced.main" />
+          <element id="directory" name="META-INF">
+            <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
+            <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+          </element>
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.projectlombok:lombok:1.18.38" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/src/main/webapp" />
+    </root>
+  </artifact>
+</component>
